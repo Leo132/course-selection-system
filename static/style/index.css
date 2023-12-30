@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+ul.navigation_bar {
+    background-color: darkcyan;
+}
+
+li.navigation_tag {
+    display: inline;
+    background-color: cadetblue;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+li.navigation_tag:hover {
+    background-color: white;
+    border: 2px solid cadetblue;
+}
+
+li.result_li {
+    width: 50%;
+    background-color: mediumturquoise;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+li.result_li:hover {
+    background-color: white;
+    border: 2px solid mediumturquoise;
+}
